@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(201, 223, 224, 0.205);
+}
+.fa-envelope-o:before, .fa-phone::before{
+    content: "\f003";
+    color: deepskyblue;
+    margin-right: 9px;
+}
+.email i{
+    margin: 10px;
+}
+.top-menu{
+    display: flex;
+    align-items: center;
+}
+a{
+    margin: 6px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a:link{
+    text-decoration: none;
+}
+.logo img{
+    width: 90px;
+}
+.icon i{
+    margin: 10px;
+}
+.fa-search:before, .fa-shopping-cart:before, .fa-user:before{
+    content: "\f002";
+    color: deepskyblue;
+    font-size: 24px;
+}
+.menu{
+    background-color: rgba(16, 140, 212, 0.692);
+}
+.menu .container{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+li, a{
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu .container a{
+    font-size: 11px;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    background: url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.banner .container{
+    display: flex;
+}
+.discription h3{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.discription p{
+    font-family:'Work Sans', sans-serif ;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.lifter img{
+    margin-top: 80px;
+}
+.discription button{
+    width: 200px;
+    height: 50px;
+}
+.container .description h3{
+    color: rgb(0, 162, 255);
+}
+.de4scription-item h3, p{
+    color: black;
+}
+.banner-item .container{
+    display: flex;
+}
+.discription-banner h2{
+    color: rgba(12, 126, 219, 0.692);
+}
+.discription-banner p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.container h2{
+    color: rgba(0, 140, 255, 0.712);
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width: 23%;
+    border: 1px solid #607d8b59;
+}
+.items h3{
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    font-family: 'Work Sans', sans-serif;
+}
+.items i{
+    display: flex;
+    justify-content: center;
+}
+.items .main{
+    color: red;
+    font-size: 9px;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.items .second{
+    font-size: 9px;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.items span{
+    justify-content: center;
+    margin-left: 20px;
+}
+.checked{
+    color: rgb(206, 206, 4);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.bath{
+    width: 60%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/natural\ 1\ .jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.patients{
+    width: 26%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/natural\ 2\ .jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.bath h3, .bath p, .patients h3, .patients p{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    align-items: center;
+}
+.bath a, .patients a, .commodes a, .shower-chair a{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: aliceblue;
+    background-color: rgb(0, 89, 255);
+    display: inline-block;
+}
+.sitting .commodes{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/natural\ 1\ .jpg);
+    background-position: center;
+    background-size: cover;
+    width: 26%;
+    padding: 30px;
+}
+.sitting .shower-chair{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/natural\ 2\ .jpg);
+    background-position: center;
+    background-size: cover;
+    width: 62%;
+    padding: 20px;
+}
+.sitting{
+    display: flex;
+    justify-content: space-between;
+}
+.commodes h4, .commodes p, .shower-chair h4, .shower-chair p{
+    padding: 15px;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.top-seller{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    border: 1px solid rgba(17, 6, 6, 0.527);
+    width: 24%;
+    height: 30%;
+}
+.product h4, .product p, .product img{
+    font-family:  'Work Sans', sans-serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    height: 330px;
+}
+.foter{
+    display: flex;
+}
+.menu-3{
+    margin-top: 40px;
+}
+.policy{
+    display: flex;
+    margin-left: 15px;
+}
+.container h5, .menu-2 .container a{
+    color: aliceblue;
+    font-size: 12px;
+    font-family:'Work Sans', sans-serif ;
+}
+.menu-2 .container a{
+    display: block;
+}
+.certificate img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.certificate{
+    margin-left: 60px;
+}
+.certificate i{
+    color: rgb(0, 172, 240);
+    margin-left: 60px;
+    font-size: 30px;
+}
+.subscriber h4, .subscriber label, .subscriber p{
+    color: aliceblue;
+    font-size: 12px;
+    font-family:'Work Sans', sans-serif ;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.subscriber button, input{
+    margin-left: 20px;
+}
+.subscriber button{
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: rgb(0, 89, 255);
+}
+.subscriber{
+    margin-left: 30px;
+}
+.foot-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(121, 115, 115, 0.637);
+}
+.payment img{
+    width: 75px;
+    width: 75px;
+    margin: 7px;
+}
+.copyrite a{
+    color: skyblue;
+}
+.copyrite p{
+    color: white;
+}
